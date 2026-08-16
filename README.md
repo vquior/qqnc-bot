@@ -28,7 +28,7 @@
 
 - 仓库：`Aoluis1005/qq-farm-bot`
 - 维护分支：`main`
-- 完整更新日志参考：[QQ 农场更新日志](https://github.com/Aoluis1005/qq-farm-bot/blob/main/UPDATE_README.md)
+- 完整更新日志参考：[QQ 农场更新日志](https://github.com/vquior/qqnc-bot/blob/main/UPDATE_README.md)
 
 > **注意**：本仓库为基于 [cwser/qq-farm-bot-private](https://github.com/cwser/qq-farm-bot-private) 的二改维护分支（原作者/上游信息见「特别感谢」）。以下所有功能与配置均以本仓库为准。
 
@@ -98,7 +98,7 @@
 ## 快速启动
 
 ```powershell
-git clone https://github.com/Aoluis1005/qq-farm-bot.git
+git clone https://github.com/vquior/qqnc-bot.git
 cd qq-farm-bot
 
 corepack enable
@@ -126,7 +126,7 @@ pnpm dev:core
 > **注意**：二进制发布版（exe）与纯源码运行**不包含** yyb-go，仍需自行部署该 Go 服务并填写接口地址。
 
 ```bash
-git clone https://github.com/Aoluis1005/qq-farm-bot.git
+git clone https://github.com/vquior/qqnc-bot.git
 cd qq-farm-bot
 
 docker compose up -d --build
